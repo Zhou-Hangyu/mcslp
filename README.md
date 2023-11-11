@@ -1,1 +1,1 @@
-# slp
+# Multi-Channel Sign Language Processing
