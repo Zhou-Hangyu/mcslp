@@ -8,9 +8,9 @@ title={Two-Stream Network for Sign Language Recognition and Translation},
 """
 
 import torch, glob, os
-from utils.misc import get_logger, neq_load_customized
-from src.models_3d.S3D.model import S3Dsup
-from src.pyramid import PyramidNetwork, PyramidNetwork_v2
+from misc import get_logger, neq_load_customized
+from src.kps_encoder.models_3d.S3D.model import S3Dsup
+from src.kps_encoder.pyramid import PyramidNetwork, PyramidNetwork_v2
 
 BLOCK2SIZE = {1:64, 2:192, 3:480, 4:832, 5:1024}
 class S3Ds(S3Dsup):

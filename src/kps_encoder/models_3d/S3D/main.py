@@ -2,7 +2,7 @@ import os
 import numpy as np
 import cv2
 import torch
-from src.models_3d.S3D.model import S3D
+from src.kps_encoder.models_3d.S3D.model import S3D
 
 def main():
     ''' Output the top 5 Kinetics classes predicted by the model '''

@@ -11,8 +11,8 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 
-from src.fusion import Lateral_Conn
-from src.S3D import S3D_backbone
+from src.kps_encoder.fusion import Lateral_Conn
+from src.kps_encoder.S3D import S3D_backbone
 
 
 class S3D_two_stream_v2(nn.Module):
